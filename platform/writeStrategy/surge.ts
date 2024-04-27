@@ -156,7 +156,39 @@ export class SurgeWriteStrategy extends BaseRuleStrategy {
     )
 
     const mitmDomains: Set<string> = new Set() // Special case for parsed failed
-    const parsedFailures = new Set()
+    const parsedFailures = new Set([
+      '*.beacon.qq.com',
+      '*.qq.com',
+      '*.gdt.qq.com',
+      'ad*.sina.com',
+      'ad*.sina.com.cn',
+      'app.58.com',
+      '*.sinaimg.cn',
+      'sa*.tuisong.baidu.com',
+      'update.pan.baidu.com',
+      'cdn-1rtb.caiyunapp.com',
+      'goblin.hupu.com',
+      'discardrp.umetrip.com',
+      'startup.umetrip.com',
+      '114.home.umetrip.com',
+      '115.home.umetrip.com',
+      '217.home.umetrip.com',
+      '129.home.umetrip.com',
+      'mrobot.pcauto.com',
+      'mrobot.pconline.com',
+      'api.zhihu.com',
+      'www.zhihu.com',
+      'api.chelaile.net',
+      'atrace.chelaile.net',
+      'ggic.cmvideo.cn',
+      'ggic2.cmvideo.cn',
+      'ctrl.playcvn.com',
+      'ctrl.playcvn.net',
+      'ctrl.zmzapi.com',
+      'ctrl.zmzapi.net',
+      'api.zhuishushenqi.com',
+      'b.zhuishushenqi.com',
+    ])
 
     const dedupedUrlRegexPaths = [...new Set(urlRegexPaths)]
 

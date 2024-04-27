@@ -45,6 +45,7 @@ jobs:
             ${{ runner.os }}-v1-${{ steps.date.outputs.year }}-
             ${{ runner.os }}-v1-
       - run: bun install
+      - run: bun run download
       - run: bun run start
       - name: Pre-deploy check
         # If the public directory doesn't exist, the build should fail.
