@@ -5,7 +5,7 @@ export default [
     fileName: 'reject',
     includeFiles: [
       path.join(__dirname, `/../storage/reject/blackmatrix7/Advertising_All_No_Resolve.list`),
-      path.join(__dirname, `/../storage/reject/skk/domainset_reject.list`),
+      // path.join(__dirname, `/../storage/reject/skk/domainset_reject.list`),
       path.join(__dirname, `/../storage/reject/skk/skk_ip_reject.list`),
     ],
   },
@@ -14,7 +14,7 @@ export default [
     includeFiles: [
       path.join(__dirname, `/../storage/reject/blackmatrix7/Advertising_All_No_Resolve.list`),
       path.join(__dirname, '/', '../storage/reject/blackmatrix7/privacy_All.list'),
-      path.join(__dirname, `/../storage/reject/skk/domainset_reject.list`),
+      // path.join(__dirname, `/../storage/reject/skk/domainset_reject.list`),
       path.join(__dirname, `/../storage/reject/skk/reject_url_regex_non_ip.list`),
       path.join(__dirname, `/../storage/reject/skk/skk_ip_reject.list`),
       path.join(__dirname, `/../storage/reject/antiAd/anti-ad-surge.list`),
