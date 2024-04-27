@@ -4,7 +4,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 12 * * *'
+    - cron: '0 */4 * * *'
   workflow_dispatch:
 
 jobs:
@@ -65,3 +65,4 @@ jobs:
           external_repository: ProxyStorage/ruleset
           publish_branch: master
           publish_dir: dist
+          cname: rule.acs.pw
