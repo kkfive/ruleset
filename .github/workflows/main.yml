@@ -62,7 +62,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.GIT_TOKEN }}
-          external_repository: ProxyStorage/ruleset
+          external_repository: ProxyStorage/rule.acs.pw
           publish_branch: master
           publish_dir: dist
           cname: rule.acs.pw
