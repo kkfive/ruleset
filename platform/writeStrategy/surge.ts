@@ -226,11 +226,13 @@ export class SurgeWriteStrategy extends BaseRuleStrategy {
     }
 
     const platform = this.getName()
+    console.error(parsedFailures)
     if (mitmDomains.size === 0)
       return
-    const data: string[] = [...mitmDomains] as string[]
-    const header = getHeader(data, 'Surge MITM HostName', 'The current rule contains url-regex rules that may require MITM to take effect')
-    writeFileSync(`${this.outputDir}/${platform}/rule/${fileName}_hostname.sgmodule`, `${header}
+    writeFileSync(`${this.outputDir}/${platform}/rule/${fileName}_hostname.sgmodule`, `#!name=DreamyTZK ${fileName} MITM HostName
+#!desc=MITM HostName for Surge
+#!category=DreamyTZK 
+#!author=@kkfive
 
 [MITM]
 hostname = %APPEND% ${Array.from(mitmDomains).join(', ')}`)
