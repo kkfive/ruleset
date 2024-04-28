@@ -47,6 +47,7 @@ jobs:
       - run: bun install
       - run: bun run download
       - run: bun run start
+      - run: bun run dnsmap.ts
       - name: Pre-deploy check
         # If the public directory doesn't exist, the build should fail.
         # If the public directory is empty, the build should fail.
