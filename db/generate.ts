@@ -12,7 +12,7 @@ export default [
   {
     fileName: 'reject_plus',
     includeFiles: [
-      path.join(__dirname, `/../storage/reject/blackmatrix7/Advertising_All_No_Resolve.list`),
+      // path.join(__dirname, `/../storage/reject/blackmatrix7/Advertising_All_No_Resolve.list`),
       path.join(__dirname, '/', '../storage/reject/blackmatrix7/privacy_All.list'),
       // path.join(__dirname, `/../storage/reject/skk/domainset_reject.list`),
       path.join(__dirname, `/../storage/reject/skk/reject_url_regex_non_ip.list`),
