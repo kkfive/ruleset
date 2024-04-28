@@ -4,7 +4,7 @@ interface DownloadItem {
 }
 
 export default {
-  reject: [
+  'reject': [
     {
       path: 'blackmatrix7/privacy_All.list',
       url: 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Privacy/Privacy_All.list',
@@ -39,7 +39,7 @@ export default {
     },
 
   ],
-  rejectDrop: [
+  'rejectDrop': [
     {
       path: 'skk/reject-drop_non_ip.list',
       url: 'https://ruleset.skk.moe/List/non_ip/reject-drop.conf',
@@ -49,14 +49,14 @@ export default {
       url: 'https://ruleset.skk.moe/List/non_ip/my_reject.conf',
     },
   ],
-  rejectTinyGif: [
+  'rejectTinyGif': [
     {
       path: 'skk/reject-tinygif_non_ip.list',
       url: 'https://ruleset.skk.moe/List/domainset/reject.conf',
     },
   ],
   // 国内的规则
-  domestic: [
+  'domestic': [
     {
       path: 'skk/domestic_non_ip.list',
       url: 'https://ruleset.skk.moe/List/non_ip/domestic.conf',
@@ -71,7 +71,7 @@ export default {
     },
   ],
   // 不应该被代理的规则
-  direct: [
+  'direct': [
     {
       path: 'skk/direct_non_ip.list',
       url: 'https://ruleset.skk.moe/List/non_ip/direct.conf',
@@ -81,14 +81,14 @@ export default {
       url: 'https://ruleset.skk.moe/List/non_ip/my_direct.conf',
     },
   ],
-  lan: [
+  'lan': [
     {
       path: 'skk/lan_ip.list',
       url: 'https://ruleset.skk.moe/List/ip/lan.conf',
     },
   ],
   // 国外的规则
-  global: [
+  'global': [
     {
       path: 'skk/global_non_ip.list',
       url: 'https://ruleset.skk.moe/List/non_ip/global.conf',
@@ -98,13 +98,13 @@ export default {
       url: 'https://ruleset.skk.moe/List/non_ip/global_plus.conf',
     },
   ],
-  proxy: [
+  'proxy': [
     {
       path: 'skk/my_proxy_non_ip.list',
       url: 'https://ruleset.skk.moe/List/non_ip/my_proxy.conf',
     },
   ],
-  stream: [
+  'stream': [
     { path: 'skk/stream_non_ip.list', url: 'https://ruleset.skk.moe/List/non_ip/stream.conf' },
     { path: 'skk/stream_us_non_ip.list', url: 'https://ruleset.skk.moe/List/non_ip/stream_us.conf' },
     { path: 'skk/stream_tw_non_ip.list', url: 'https://ruleset.skk.moe/List/non_ip/stream_tw.conf' },
@@ -120,7 +120,7 @@ export default {
     { path: 'skk/stream_hk_ip.list', url: 'https://ruleset.skk.moe/List/ip/stream_hk.conf' },
     { path: 'skk/stream_eu_ip.list', url: 'https://ruleset.skk.moe/List/ip/stream_eu.conf' },
   ],
-  cdn: [
+  'cdn': [
     { url: 'https://ruleset.skk.moe/List/domainset/cdn.conf', path: 'skk/cdn_domainset.list' },
     { url: 'https://ruleset.skk.moe/List/non_ip/cdn.conf', path: 'skk/cdn_non_ip.list' },
     { url: 'https://ruleset.skk.moe/List/domainset/apple_cdn.conf', path: 'skk/apple_cdn_domainset.list' },
@@ -128,7 +128,7 @@ export default {
     { url: 'https://ruleset.skk.moe/List/non_ip/apple_cn.conf', path: 'skk/apple_cn_non_ip.list' },
     { url: 'https://ruleset.skk.moe/List/non_ip/microsoft_cdn.conf', path: 'skk/microsoft_cdn_non_ip.list' },
   ],
-  ai: [
+  'ai': [
     {
       path: 'skk/ai_non_ip.list',
       url: 'https://ruleset.skk.moe/List/non_ip/ai.conf',
@@ -146,7 +146,7 @@ export default {
       url: 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Gemini/Gemini.list',
     },
   ],
-  telegram: [
+  'telegram': [
     {
       path: 'blackmatrix7/telegram.list',
       url: 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Telegram/Telegram.list',
@@ -164,40 +164,46 @@ export default {
       url: 'https://ruleset.skk.moe/List/non_ip/telegram.conf',
     },
   ],
-  download: [
+  'download': [
     { path: 'skk/download_domainset.list', url: 'https://ruleset.skk.moe/List/domainset/download.conf' },
     { path: 'skk/download_non_ip.list', url: 'https://ruleset.skk.moe/List/non_ip/download.conf' },
   ],
-  developer: [
+  'developer': [
     { path: 'blackmatrix7/github.list', url: 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GitHub/GitHub.list' },
     { path: 'blackmatrix7/gitlab.list', url: 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GitLab/GitLab.list' },
     { path: 'blackmatrix7/developer.list', url: 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Developer/Developer.list' },
   ],
-  tiktok: [
+  'tiktok': [
     { path: 'blackmatrix7/tiktok.list', url: 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TikTok/TikTok.list' },
   ],
-  microsoft: [
+  'microsoft': [
     { path: 'blackmatrix7/microsoft.list', url: 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Microsoft/Microsoft.list' },
     { path: 'blackmatrix7/oneDrive.list', url: 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OneDrive/OneDrive.list' },
     { path: 'blackmatrix7/teams.list', url: 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Teams/Teams.list' },
   ],
-  google: [
+  'google': [
     { path: 'blackmatrix7/google.list', url: 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Google/Google.list' },
     { path: 'blackmatrix7/googleDrive.list', url: 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GoogleDrive/GoogleDrive.list' },
   ],
-  pikpak: [
+  'pikpak': [
     { path: 'blackmatrix7/pikpak.list', url: 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PikPak/PikPak.list' },
   ],
-  notion: [
+  'notion': [
     { path: 'blackmatrix7/notion.list', url: 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Notion/Notion.list' },
   ],
-  bilibili: [
+  'bilibili': [
     { path: 'blackmatrix7/bilibili.list', url: 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BiliBili/BiliBili.list' },
   ],
-  wechat: [
+  'wechat': [
     { path: 'blackmatrix7/wechat.list', url: 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/WeChat/WeChat.list' },
   ],
-  speedtest: [
+  'speedtest': [
     { path: 'blackmatrix7/speedtest.list', url: 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Speedtest/Speedtest.list' },
+  ],
+  '1password': [
+    {
+      path: 'vpn_tool/1PasswordUS.list',
+      url: 'https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/1PasswordUS.list',
+    },
   ],
 } as Record<string, DownloadItem[]>

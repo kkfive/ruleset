@@ -12,7 +12,7 @@ export default [
   {
     fileName: 'reject_plus',
     includeFiles: [
-      path.join(__dirname, `/../storage/reject/blackmatrix7/Advertising_All_No_Resolve.list`),
+      // path.join(__dirname, `/../storage/reject/blackmatrix7/Advertising_All_No_Resolve.list`),
       path.join(__dirname, '/', '../storage/reject/blackmatrix7/privacy_All.list'),
       // path.join(__dirname, `/../storage/reject/skk/domainset_reject.list`),
       path.join(__dirname, `/../storage/reject/skk/reject_url_regex_non_ip.list`),
@@ -229,6 +229,12 @@ export default [
     fileName: 'wechat',
     includeFiles: [
       path.join(__dirname, '/', '../storage/wechat/blackmatrix7/wechat.list'),
+    ],
+  },
+  {
+    fileName: '1passwordUS',
+    includeFiles: [
+      path.join(__dirname, '/', '../storage/1password/vpn_tool/1PasswordUS.list'),
     ],
   },
 ] as Array<{ fileName: string, includeFiles: Array<string> }>
