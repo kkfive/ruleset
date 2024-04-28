@@ -26,15 +26,16 @@ export class ClashWriteStrategy extends BaseRuleStrategy {
 
   writeDomainRule(fileName: string, ruleSet: Record<RuleSetNames, string[]>): void {
     const platform = this.getName()
-    const data = [...ruleSet.domainListSet].map(item => item.startsWith('.') ? `+${item}` : item)
+    const data = [...ruleSet.domainListSet].map(item => item.startsWith('.') ? `+${item}` : item).filter(item => !!item)
     const header = getHeader(data, 'Domain Rule')
     writeFileSync(`${this.outputDir}/${platform}/rule/${fileName}_domain.list`, `${header}\n${data.join('\n').trim()}`)
   }
 
   writeNoIpRule(fileName: string, ruleSet: Record<RuleSetNames, string[]>): void {
     const platform = this.getName()
+
     // const { remarkSet, ipCidrSet, domainListSet, unknownSet, processNameSet, logicSet, scriptSet, urlRegexSet, ...rest } = ruleSet
-    const data = [...ruleSet.domainSetSet, ...ruleSet.domainSuffixSet, ...ruleSet.domainKeywordSet].flat()
+    const data = [...ruleSet.domainSet, ...ruleSet.domainSetSet, ...ruleSet.domainSuffixSet, ...ruleSet.domainKeywordSet].flat()
     const header = getHeader(data, 'No IP RuleSet')
     writeFileSync(`${this.outputDir}/${platform}/rule/${fileName}_no_ip_rule.list`, `${header}\n${data.join('\n').trim()}`)
   }

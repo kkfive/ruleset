@@ -18,6 +18,7 @@ export class WriteFile {
     domainWildcardSet: new Set(),
     ipCidrSet: new Set(),
     unknownSet: new Set(),
+    ipASNSet: new Set(),
   }
 
   private writeStrategy = [

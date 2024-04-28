@@ -30,7 +30,7 @@ export class SurgeWriteStrategy extends BaseRuleStrategy {
 
   writeDomainRule(fileName: string, ruleSet: Record<RuleSetNames, Array<string>>) {
     const platform = this.getName()
-    const data = [...ruleSet.domainListSet]
+    const data = [...ruleSet.domainListSet].filter(item => !!item)
     const header = getHeader(data, 'Domain Rule', '')
     writeFileSync(`${this.outputDir}/${platform}/rule/${fileName}_domain.list`, `${header}\n${data.join('\n').trim()}`)
   }

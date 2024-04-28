@@ -21,7 +21,9 @@ export class RuleContext {
 
   constructor() {
     this.strategies = [
+      // 纯域名 一行一个域名 => domainListSet
       new DomainListRuleStrategy(),
+      // DOMAIN,www.baidu.com => domainSet
       new DomainRuleStrategy(),
       new DomainSuffixRuleStrategy(),
       new DomainSetRuleStrategy(),
