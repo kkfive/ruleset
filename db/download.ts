@@ -1,4 +1,4 @@
-interface DownloadItem {
+export interface DownloadItem {
   path: string
   url: string
 }
