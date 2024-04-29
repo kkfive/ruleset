@@ -205,6 +205,7 @@ export default [
     fileName: 'pikpak',
     includeFiles: [
       path.join(__dirname, '/', '../storage/pikpak/blackmatrix7/pikpak.list'),
+      path.join(__dirname, '/', '../storage/pikpak/my/my.list'),
     ],
   },
   {
