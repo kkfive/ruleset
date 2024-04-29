@@ -15,7 +15,8 @@
   },
   "dependencies": {
     "rimraf": "^5.0.5",
-    "tldts": "^6.1.18"
+    "tldts": "^6.1.18",
+    "yaml": "^2.4.2"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.16.0",

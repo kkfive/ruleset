@@ -1,4 +1,5 @@
 import fs from 'node:fs'
+import YAML from 'yaml'
 import { writeFileSync } from './utils'
 import db from '@/db/generate.dns'
 
@@ -43,12 +44,12 @@ async function main() {
 main()
 
 function writeClash(listMap: Map<string, string>) {
-  const list: string[] = []
+  const payload: Record<string, string[]> = {}
   listMap.forEach((value, key) => {
-    list.push(`${key.replace('*', '+')} : ${value.split(',')[0].replace('server:', '')}`)
+    payload[key] = [value.split(',')[0].replace('server:', '').replace('syslib', 'system')]
   })
 
-  writeFileSync(`./dist/clash/surgio/dnsMap.snippet`, list.join('\n'))
+  writeFileSync(`./dist/clash/surgio/dnsMap.snippet`, YAML.stringify(payload))
 }
 function writeSurge(listMap: Map<string, string>) {
   const list: string[] = []
@@ -60,6 +61,15 @@ function writeSurge(listMap: Map<string, string>) {
 #!desc=1.域名按所属DNS进行分流解析 2.路由器地址使用系统DNS进行解析 3.特殊地址使用规范DNS进行解析
 #!author=DreamyTZK
 #!category=DreamyTZK
+
+[General]
+# ---(DNS 服务器)---
+# > 通过代理请求使用本地DNS映射结果
+use-local-host-item-for-proxy = true
+
+# > 加密DNS服务器
+# 使加密DNS请求通过代理策略执行
+encrypted-dns-follow-outbound-mode = false
 
 [Host]
 ${list.join('\n')}
