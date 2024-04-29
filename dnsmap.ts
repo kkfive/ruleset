@@ -83,18 +83,19 @@ const defaultList = {
   '*.ixigua.com': 'server:180.184.1.1',
   '*.byted-static.com': 'server:180.184.1.1',
   // 360
-  '*.qhimg.com': 'server:quic://dns.alidns.com',
-  '*.qhres.com': 'server:quic://dns.alidns.com',
-  '*.qhmsg.com': 'server:quic://dns.alidns.com',
-  '*.qhupdate.com': 'server:quic://dns.alidns.com',
-  '*.360.cn': 'server:quic://dns.alidns.com',
-  '*.360safe.com': 'server:quic://dns.alidns.com',
-  '*.360webcache.com': 'server:quic://dns.alidns.com',
-  '*.360kuai.com': 'server:quic://dns.alidns.com',
-  '*.so.com': 'server:quic://dns.alidns.com',
-  '*.yunpan.cn': 'server:quic://dns.alidns.com',
-  '*.yunpan.com': 'server:quic://dns.alidns.com',
-  '*.yunpan.com.cn': 'server:quic://dns.alidns.com',
+  'so.com': 'server:https://doh.360.cn/dns-query',
+  '*.qhimg.com': 'server:https://doh.360.cn/dns-query',
+  '*.qhres.com': 'server:https://doh.360.cn/dns-query',
+  '*.qhmsg.com': 'server:https://doh.360.cn/dns-query',
+  '*.qhupdate.com': 'server:https://doh.360.cn/dns-query',
+  '*.360.cn': 'server:https://doh.360.cn/dns-query',
+  '*.360safe.com': 'server:https://doh.360.cn/dns-query',
+  '*.360webcache.com': 'server:https://doh.360.cn/dns-query',
+  '*.360kuai.com': 'server:https://doh.360.cn/dns-query',
+  '*.so.com': 'server:https://doh.360.cn/dns-query',
+  '*.yunpan.cn': 'server:https://doh.360.cn/dns-query',
+  '*.yunpan.com': 'server:https://doh.360.cn/dns-query',
+  '*.yunpan.com.cn': 'server:https://doh.360.cn/dns-query',
 }
 
 const fileList = db
@@ -137,6 +138,7 @@ async function main() {
                 value.trim()
                   .replace('server:119.29.29.29', 'server:https://doh.pub/dns-query')
                   .replace('server:quic://223.6.6.6:853', 'server:quic://dns.alidns.com')
+                  .replace('https://101.198.198.198/dns-query', 'https://dot.360.cn/dns-query')
                   .replace('server:quic://223.5.5.5:853', 'server:quic://dns.alidns.com')
                   .replace('server:https://120.53.53.53/dns-query', 'server:https://doh.pub/dns-query'),
               )
