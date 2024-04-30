@@ -12,8 +12,8 @@ const defaultList = {
   'dns.alidns.com': '223.5.5.5, 223.6.6.6, 2400:3200:baba::1, 2400:3200::1',
   'doh.pub': '1.12.12.12, 120.53.53.53',
   'dot.pub': '1.12.12.12, 120.53.53.53',
-  'doh.360.cn': '23.6.48.18, 112.65.69.15',
-  'dot.360.cn': '101.198.198.198, 101.198.199.200, 101.198.192.33, 112.65.69.15',
+  'doh.360.cn': '101.226.4.6, 218.30.118.6, 123.125.81.6, 140.207.198.6, 101.198.198.198',
+  'dot.360.cn': '101.226.4.6, 218.30.118.6, 123.125.81.6, 140.207.198.6, 101.198.198.198',
   'dns.twnic.tw': '101.101.101.101, 2001:de4::101, 2001:de4::102',
   'ordns.he.net': '74.82.42.42, 2001:470:20::2',
   'talk.google.com': '108.177.125.188',
@@ -136,10 +136,10 @@ async function main() {
               listMap.set(
                 key.trim(),
                 value.trim()
-                  .replace('server:119.29.29.29', 'server:https://doh.pub/dns-query')
                   .replace('server:quic://223.6.6.6:853', 'server:quic://dns.alidns.com')
-                  .replace('https://101.198.198.198/dns-query', 'https://dot.360.cn/dns-query')
                   .replace('server:quic://223.5.5.5:853', 'server:quic://dns.alidns.com')
+                  .replace('https://101.198.198.198/dns-query', 'https://doh.360.cn/dns-query')
+                  .replace('server:119.29.29.29', 'server:https://doh.pub/dns-query')
                   .replace('server:https://120.53.53.53/dns-query', 'server:https://doh.pub/dns-query'),
               )
             }
