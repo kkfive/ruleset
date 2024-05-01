@@ -96,6 +96,8 @@ const defaultList = {
   '*.yunpan.cn': 'server:https://doh.360.cn/dns-query',
   '*.yunpan.com': 'server:https://doh.360.cn/dns-query',
   '*.yunpan.com.cn': 'server:https://doh.360.cn/dns-query',
+
+  '*.googleapis.com': 'server:dns.google',
 }
 
 const fileList = db
