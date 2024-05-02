@@ -3,8 +3,9 @@
   "type": "module",
   "module": "index.ts",
   "scripts": {
-    "start": "bun run clean:output && bun run index.ts",
-    "download": "bun run ./download/index.ts",
+    "build:rule": "bun ./src/build/rule.ts",
+    "build:dnsmap": "bun ./src/build/dnsmap.ts",
+    "download": "bun ./src/download/index.ts",
     "clean:output": "rimraf ./dist",
     "clean:storage": "rimraf ./storage",
     "test:parse": "bun run ./parse/index.ts",

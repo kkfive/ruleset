@@ -11,7 +11,9 @@
     // Bundler mode
     "moduleResolution": "bundler",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./src/*"],
+      "@db/*": ["./db/*"],
+      "@storage/*": ["./storage/*"]
     },
     "allowImportingTsExtensions": true,
     "allowJs": true,
