@@ -21,5 +21,5 @@ const list = [
 ];
 
 (() => {
-  writeFileSync(`${CONF.outputDir}/surge/surgio/disable-host-name`, list.join(','))
+  writeFileSync(`${CONF.outputDir}/surge/surgio/disable-host-name.snippet`, list.join(','))
 })()
