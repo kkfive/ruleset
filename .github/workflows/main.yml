@@ -48,6 +48,7 @@ jobs:
       - run: bun run download
       - run: bun run build:rule
       - run: bun run build:dnsmap
+      - run: bun run build:disabledHostName
       - run: cp README.md public
       - run: cp -r ./public/* ./dist
       - name: Pre-deploy check
