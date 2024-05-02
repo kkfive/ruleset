@@ -18,6 +18,10 @@ const list = [
   '95.161.76.101',
   // 京东
   'www.jd.com',
+
+  // 腾讯
+  'safebrowsing.urlsec.qq.com',
+  'wetype.weixin.qq.com',
 ];
 
 (() => {
