@@ -48,6 +48,7 @@ jobs:
       - run: bun run download
       - run: bun run build:rule
       - run: bun run build:dnsmap
+      - run: cp README.md public
       - run: cp -r ./public/* ./dist
       - name: Pre-deploy check
         # If the public directory doesn't exist, the build should fail.
@@ -69,3 +70,8 @@ jobs:
           publish_branch: master
           publish_dir: dist
           cname: rule.acs.pw
+      - name: Delete workflow runs
+        uses: Mattraks/delete-workflow-runs@v2
+        with:
+          retain_days: 1
+          keep_minimum_runs: 0
