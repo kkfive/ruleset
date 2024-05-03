@@ -99,7 +99,7 @@ const defaultList = {
   '*.yunpan.com': 'server:https://doh.360.cn/dns-query',
   '*.yunpan.com.cn': 'server:https://doh.360.cn/dns-query',
 
-  '*.googleapis.com': 'server:dns.google',
+  '*.googleapis.com': 'server:https://dns.google',
 }
 
 const fileList = db.includeFiles
@@ -124,6 +124,7 @@ async function main() {
 
   writeClash(listMap)
   writeSurge(listMap)
+  writeLoon(listMap)
 }
 
 main()
@@ -153,6 +154,31 @@ function writeSurge(listMap: Map<string, string>) {
   })
 
   writeFileSync(`${CONF.outputDir}/surge/module/dnsMap.sgmdule`, `#!name=DNS映射
+#!desc=1.域名按所属DNS进行分流解析 2.路由器地址使用系统DNS进行解析 3.特殊地址使用规范DNS进行解析 update:${new Date().toISOString()}
+#!author=DreamyTZK
+#!category=DreamyTZK
+
+[General]
+# ---(DNS 服务器)---
+# > 通过代理请求使用本地DNS映射结果
+use-local-host-item-for-proxy = true
+
+# > 加密DNS服务器
+# 使加密DNS请求通过代理策略执行
+encrypted-dns-follow-outbound-mode = false
+
+[Host]
+${list.join('\n')}
+    `)
+}
+
+function writeLoon(listMap: Map<string, string>) {
+  const list: string[] = []
+  listMap.forEach((value, key) => {
+    list.push(`${key} = ${value.replace('server:syslib', 'server:system')}`)
+  })
+
+  writeFileSync(`${CONF.outputDir}/loon/plugin/dnsMap.sgmdule`, `#!name=DNS映射
 #!desc=1.域名按所属DNS进行分流解析 2.路由器地址使用系统DNS进行解析 3.特殊地址使用规范DNS进行解析 update:${new Date().toISOString()}
 #!author=DreamyTZK
 #!category=DreamyTZK
