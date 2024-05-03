@@ -111,20 +111,24 @@ async function main() {
   fileList.forEach((file) => {
     const content = fs.readFileSync(file, 'utf-8')
     const list = parseDnsMap(content)
+
     list.forEach((value, key) => {
       const exitsValue = listMap.get(key)
       // eslint-disable-next-line ts/ban-ts-comment
       // @ts-expect-error
-      if (!defaultList[key] && listMap.has(key) && exitsValue !== value)
-        console.warn(`${key}已存在记录${exitsValue}，新的记录为：${value}，已跳过`)
-      else
-        listMap.set(key, value)
+      if (!defaultList[key]) {
+        if (listMap.has(key) && exitsValue !== value)
+          console.warn(`${key}已存在记录${exitsValue}，新的记录为：${value}，已跳过`)
+
+        else
+          listMap.set(key, value)
+      }
     })
   })
 
+  writeLoon(listMap)
   writeClash(listMap)
   writeSurge(listMap)
-  writeLoon(listMap)
 }
 
 main()
