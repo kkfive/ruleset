@@ -178,7 +178,7 @@ function writeLoon(listMap: Map<string, string>) {
     list.push(`${key} = ${value.replace('server:syslib', 'server:system')}`)
   })
 
-  writeFileSync(`${CONF.outputDir}/loon/plugin/dnsMap.sgmdule`, `#!name=DNS映射
+  writeFileSync(`${CONF.outputDir}/loon/plugin/dnsMap.plugin`, `#!name=DNS映射
 #!desc=1.域名按所属DNS进行分流解析 2.路由器地址使用系统DNS进行解析 3.特殊地址使用规范DNS进行解析 update:${new Date().toISOString()}
 #!author=DreamyTZK
 #!category=DreamyTZK
