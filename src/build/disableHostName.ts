@@ -4,8 +4,13 @@
 
 import { CONF } from '@/config'
 import { writeFileSync } from '@/utils'
-
+// sub.store,
+//  music.163.com, -*.facebook.com, -*.instagram.com, -*.twitter.com, -*.tiktokv.com, -*.snssdk.com, -*.pstatp.com
 const list = [
+  // 其他
+  'sub.store',
+  // 网易
+  'music.163.com',
   // apple
   'gateway.icloud.com',
   'gateway.icloud.com.cn',
@@ -18,13 +23,18 @@ const list = [
   '95.161.76.101',
   // 京东
   'www.jd.com',
-
   // 腾讯
   'safebrowsing.urlsec.qq.com',
   'wetype.weixin.qq.com',
-
   // google
   'www.google.com',
+  // 其他
+  '*.facebook.com',
+  '*.instagram.com',
+  '*.twitter.com',
+  '*.tiktokv.com',
+  '*.snssdk.com',
+  '*.pstatp.com',
 ];
 
 (() => {
