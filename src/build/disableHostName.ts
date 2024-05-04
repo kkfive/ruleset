@@ -22,8 +22,11 @@ const list = [
   // 腾讯
   'safebrowsing.urlsec.qq.com',
   'wetype.weixin.qq.com',
+
+  // google
+  'www.google.com',
 ];
 
 (() => {
-  writeFileSync(`${CONF.outputDir}/surge/surgio/disable-host-name.snippet`, list.join(','))
+  writeFileSync(`${CONF.outputDir}/surge/surgio/disable-host-name.snippet`, list.map(i => `-${i}`).join(','))
 })()
