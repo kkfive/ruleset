@@ -100,6 +100,8 @@ const defaultList = {
   '*.yunpan.com.cn': 'server:https://doh.360.cn/dns-query',
 
   '*.googleapis.com': 'server:https://dns.google',
+
+  '*.acs.pw': 'server:https://cloudflare-dns.com',
 }
 
 const fileList = db.includeFiles
