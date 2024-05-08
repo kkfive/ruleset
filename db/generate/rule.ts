@@ -49,6 +49,7 @@ export default [
     includeFiles: [
       path.join(CONF.ruleStoragePath, '/direct/skk/direct_non_ip.list'),
       path.join(CONF.ruleStoragePath, '/direct/skk/my_direct_non_ip.list'),
+      path.join(CONF.ruleStoragePath, '/direct/my/direct.list'),
     ],
   },
   {
