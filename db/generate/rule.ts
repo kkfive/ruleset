@@ -8,6 +8,7 @@ export default [
       path.join(CONF.ruleStoragePath, `/reject/blackmatrix7/Advertising_All_No_Resolve.list`),
       // path.join(CONF.ruleStoragePath, `/reject/skk/domainset_reject.list`),
       path.join(CONF.ruleStoragePath, `/reject/skk/skk_ip_reject.list`),
+      path.join(CONF.ruleStoragePath, `/reject/my/reject.list`),
     ],
   },
   {
@@ -21,6 +22,7 @@ export default [
       path.join(CONF.ruleStoragePath, `/reject/antiAd/anti-ad-surge.list`),
       path.join(CONF.ruleStoragePath, `/reject/adrules/adrules.list`),
       path.join(CONF.ruleStoragePath, `/reject/RuCu6/MyBlockAds.list`),
+      path.join(CONF.ruleStoragePath, `/reject/my/reject.list`),
     ],
   },
   {
