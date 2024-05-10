@@ -122,6 +122,7 @@ export default [
     includeFiles: [
       path.join(CONF.ruleStoragePath, '/cdn/skk/cdn_domainset.list'),
       path.join(CONF.ruleStoragePath, '/cdn/skk/cdn_non_ip.list'),
+      path.join(CONF.ruleStoragePath, '/cdn/my/gcdn_no_ip.list'),
     ],
   },
   {
