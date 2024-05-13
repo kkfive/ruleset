@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Reject URL
-# Last Updated: 2024-04-23T07:19:02.379Z
-# Size: 178
+# Last Updated: 2024-05-07T17:26:22.189Z
+# Size: 177
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -14,7 +14,6 @@ URL-REGEX,^https?://premiumyva\.appspot\.com/vmclickstoadvertisersite
 URL-REGEX,^https?://cover\.baidu\.com/cover/page/dspSwitchAds/
 URL-REGEX,^https?://c\.tieba\.baidu\.com/c/s/splashSchedule
 URL-REGEX,^https?://issuecdn\.baidupcs\.com/issue/netdisk/guanggao/
-URL-REGEX,^https?://update\.pan\.baidu\.com/statistics
 URL-REGEX,^https?://app\.bilibili\.com/x/resource/abtest
 URL-REGEX,^https?://www\.cntv\.cn/nettv/adp/
 URL-REGEX,^https://img-ys011\.didistatic\.com/static/ad_oss/
