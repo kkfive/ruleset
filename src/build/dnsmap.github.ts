@@ -33,7 +33,7 @@ function writeClash(listMap: Map<string, string>) {
     payload[key] = newValue
   })
 
-  writeFileSync(`${CONF.outputDir}/clash/surgio/dnsMap.github.snippet`, YAML.stringify(payload))
+  writeFileSync(`${CONF.outputDir}/clash/surgio/dnsMap.hosts.github.snippet`, YAML.stringify(payload))
 }
 function writeSurge(listMap: Map<string, string>) {
   const list: string[] = []
