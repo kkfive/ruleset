@@ -169,10 +169,15 @@ export default [
     ],
   },
   {
+    fileName: 'github',
+    includeFiles: [
+      path.join(CONF.ruleStoragePath, '/developer/blackmatrix7/github.list'),
+    ],
+  },
+  {
     fileName: 'developer',
     includeFiles: [
       path.join(CONF.ruleStoragePath, '/developer/blackmatrix7/developer.list'),
-      path.join(CONF.ruleStoragePath, '/developer/blackmatrix7/github.list'),
       path.join(CONF.ruleStoragePath, '/developer/blackmatrix7/gitlab.list'),
     ],
   },

@@ -5,6 +5,7 @@
   "scripts": {
     "build:rule": "bun ./src/build/rule.ts",
     "build:dnsmap": "bun ./src/build/dnsmap.ts",
+    "build:dnsmap.github": "bun ./src/build/dnsmap.github.ts",
     "build:disabledHostName": "bun ./src/build/disableHostName.ts",
     "download": "bun ./src/download/index.ts",
     "clean:output": "rimraf ./dist",
