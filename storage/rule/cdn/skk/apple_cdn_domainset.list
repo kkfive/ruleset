@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Apple CDN
-# Last Updated: 2024-03-08T08:50:32.607Z
-# Size: 167
+# Last Updated: 2024-05-25T12:29:50.055Z
+# Size: 168
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -122,6 +122,7 @@ this_ruleset_is_made_by_sukkaw.ruleset.skk.moe
 .ml.cdn-apple.com
 .music.apple.com
 .ocsp-lb.apple.com.akadns.net
+.ocsp2-lb.apple.com.akadns.net
 .ocsp.apple.com
 .ocsp2.apple.com
 .oscdn.apple.com

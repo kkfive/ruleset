@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Apple CDN
-# Last Updated: 2024-03-08T08:50:32.604Z
-# Size: 167
+# Last Updated: 2024-05-25T12:29:50.052Z
+# Size: 168
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -122,6 +122,7 @@ DOMAIN-SUFFIX,mesu.apple.com
 DOMAIN-SUFFIX,ml.cdn-apple.com
 DOMAIN-SUFFIX,music.apple.com
 DOMAIN-SUFFIX,ocsp-lb.apple.com.akadns.net
+DOMAIN-SUFFIX,ocsp2-lb.apple.com.akadns.net
 DOMAIN-SUFFIX,ocsp.apple.com
 DOMAIN-SUFFIX,ocsp2.apple.com
 DOMAIN-SUFFIX,oscdn.apple.com

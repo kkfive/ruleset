@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Reject Domains
-# Last Updated: 2024-04-24T07:53:48.807Z
-# Size: 64
+# Last Updated: 2024-05-18T20:29:11.856Z
+# Size: 67
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -15,6 +15,7 @@ DOMAIN-SUFFIX,openx.net
 DOMAIN-SUFFIX,crazyegg.com
 DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,advertising.com
+DOMAIN-SUFFIX,net.mydays.de
 DOMAIN-SUFFIX,notifysrv.com
 DOMAIN-SUFFIX,notify6.com
 DOMAIN-KEYWORD,.estream.
@@ -35,6 +36,7 @@ DOMAIN-KEYWORD,fb-restriction-case
 DOMAIN-KEYWORD,fb-restriction-appeal
 DOMAIN-KEYWORD,fb-community-standards
 DOMAIN-KEYWORD,fb-business-appeal
+DOMAIN-KEYWORD,cp-home-pl-
 DOMAIN-KEYWORD,track.tiara
 DOMAIN-KEYWORD,umeng
 DOMAIN-KEYWORD,adsby
@@ -52,6 +54,7 @@ DOMAIN-KEYWORD,adjust.
 DOMAIN-KEYWORD,appsflyer
 DOMAIN-KEYWORD,dnserror
 DOMAIN-KEYWORD,marketing.net
+DOMAIN-KEYWORD,adktrack
 DOMAIN-KEYWORD,_vmind.qqvideo.tc.qq.com
 DOMAIN-KEYWORD,-logging.nextmedia.com
 DOMAIN-KEYWORD,-spiky.clevertap-prod.com

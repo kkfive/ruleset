@@ -249,4 +249,10 @@ export default [
       path.join(CONF.ruleStoragePath, '/1password/vpn_tool/1PasswordUS.list'),
     ],
   },
+  {
+    fileName: 'spotify',
+    includeFiles: [
+      path.join(CONF.ruleStoragePath, '/spotify/blackmatrix7/spotify.list'),
+    ],
+  },
 ] as Array<{ fileName: string, includeFiles: Array<string> }>
