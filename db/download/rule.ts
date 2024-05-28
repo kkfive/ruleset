@@ -104,6 +104,9 @@ export default {
       url: 'https://ruleset.skk.moe/List/non_ip/my_proxy.conf',
     },
   ],
+  'spotify': [
+    { path: 'blackmatrix7/spotify.list', url: 'https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Spotify/Spotify.list' },
+  ],
   'stream': [
     { path: 'skk/stream_non_ip.list', url: 'https://ruleset.skk.moe/List/non_ip/stream.conf' },
     { path: 'skk/stream_us_non_ip.list', url: 'https://ruleset.skk.moe/List/non_ip/stream_us.conf' },
