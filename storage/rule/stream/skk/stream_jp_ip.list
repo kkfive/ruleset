@@ -1,6 +1,6 @@
 #########################################
 # Sukka's Ruleset - Stream Services' IPs: Japan
-# Last Updated: 2024-03-08T08:50:32.717Z
+# Last Updated: 2024-06-02T13:44:39.812Z
 # Size: 1
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
@@ -9,6 +9,8 @@
 # - DMM
 # - AbemaTV
 # - niconico
+# - Hulu Japan
+# - encoreTVB JP
 #########################################
 DOMAIN,this_ruleset_is_made_by_sukkaw.ruleset.skk.moe
 ################## EOF ##################

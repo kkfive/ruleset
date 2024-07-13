@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2024-04-24T12:20:16.624Z
-# Size: 11
+# Last Updated: 2024-06-19T02:17:29.916Z
+# Size: 15
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -17,6 +17,10 @@ DOMAIN-KEYWORD,dsn.algolia.net
 DOMAIN-WILDCARD,appcenter-filemanagement-*.cloudapp.net
 DOMAIN-WILDCARD,proxy-*.dailymotion.com
 DOMAIN-WILDCARD,static*.tgstat.ru
+DOMAIN-WILDCARD,ocsp.*.amazontrust.com
+DOMAIN-WILDCARD,s3.*.wasabisys.com
+DOMAIN-WILDCARD,cdn?-thumbs.pornhost.com
+DOMAIN-WILDCARD,cdn?-dl.pornhost.com
 URL-REGEX,^http://www\.microsoft\.com/pki/
 URL-REGEX,^http://www\.microsoft\.com/pkiops/
 ################## EOF ##################

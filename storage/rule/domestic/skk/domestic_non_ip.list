@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Domestic Domains
-# Last Updated: 2024-05-25T20:39:15.195Z
-# Size: 758
+# Last Updated: 2024-06-26T09:50:30.875Z
+# Size: 766
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -42,6 +42,7 @@ DOMAIN-SUFFIX,oneplusbbs.com
 DOMAIN-SUFFIX,h2os.com
 DOMAIN-SUFFIX,dbank.com
 DOMAIN-SUFFIX,dbankcdn.com
+DOMAIN-SUFFIX,dbankcdn.cn
 DOMAIN-SUFFIX,dbankcloud.com
 DOMAIN-SUFFIX,hicloud.com
 DOMAIN-SUFFIX,hihonor.com
@@ -128,6 +129,7 @@ DOMAIN-SUFFIX,jd.hk
 DOMAIN-SUFFIX,jdpay.com
 DOMAIN-SUFFIX,jdcloud.com
 DOMAIN-SUFFIX,jdcache.com
+DOMAIN-SUFFIX,jcloudcache.com
 DOMAIN-SUFFIX,jdcdn.com
 DOMAIN-SUFFIX,iciba.com
 DOMAIN-SUFFIX,ksosoft.com
@@ -201,6 +203,7 @@ DOMAIN-SUFFIX,kuaishou.com
 DOMAIN-SUFFIX,gifshow.com
 DOMAIN-SUFFIX,yximgs.com
 DOMAIN-SUFFIX,kuaishouzt.com
+DOMAIN-SUFFIX,kwaicdn.com
 DOMAIN-SUFFIX,acfun.cn
 DOMAIN-SUFFIX,aixifan.com
 DOMAIN-SUFFIX,pinduoduo.com
@@ -431,6 +434,7 @@ DOMAIN-SUFFIX,msstatic.com
 DOMAIN-SUFFIX,mubu.com
 DOMAIN-SUFFIX,myzaker.com
 DOMAIN-SUFFIX,neea.cn
+DOMAIN-SUFFIX,ntp.org.cn
 DOMAIN-SUFFIX,nubia.cn
 DOMAIN-SUFFIX,nubia.com
 DOMAIN-SUFFIX,onlinedown.com
@@ -457,6 +461,7 @@ DOMAIN-SUFFIX,qdaily.com
 DOMAIN-SUFFIX,qidian.com
 DOMAIN-SUFFIX,qiniu.com
 DOMAIN-SUFFIX,qingcdn.com
+DOMAIN-SUFFIX,qixin.com
 DOMAIN-SUFFIX,qyer.com
 DOMAIN-SUFFIX,qyerstatic.com
 DOMAIN-SUFFIX,right.com.cn
@@ -484,6 +489,7 @@ DOMAIN-SUFFIX,tianyancha.com
 DOMAIN-SUFFIX,tripcdn.cn
 DOMAIN-SUFFIX,tvmao.com
 DOMAIN-SUFFIX,tvzhe.com
+DOMAIN-SUFFIX,upyun.com
 DOMAIN-SUFFIX,vip.com
 DOMAIN-SUFFIX,weather.com.cn
 DOMAIN-SUFFIX,weathercn.com
@@ -701,6 +707,8 @@ DOMAIN-SUFFIX,volccdn.com
 DOMAIN-SUFFIX,byted-static.com
 DOMAIN-SUFFIX,volces.com
 DOMAIN-SUFFIX,baike.com
+DOMAIN-SUFFIX,zjcdn.com
+DOMAIN-SUFFIX,zijieapi.com
 DOMAIN-SUFFIX,91.com
 DOMAIN-SUFFIX,hao123.com
 DOMAIN-SUFFIX,baidu.cn

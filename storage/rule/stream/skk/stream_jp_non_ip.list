@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Stream Services: Japan
-# Last Updated: 2024-04-03T16:26:12.680Z
-# Size: 24
+# Last Updated: 2024-06-02T13:44:39.812Z
+# Size: 28
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -9,6 +9,8 @@
 # - DMM
 # - AbemaTV
 # - niconico
+# - Hulu Japan
+# - encoreTVB JP
 #########################################
 DOMAIN,this_ruleset_is_made_by_sukkaw.ruleset.skk.moe
 DOMAIN-SUFFIX,dmm.co.jp
@@ -31,6 +33,10 @@ DOMAIN-SUFFIX,dmc.nico
 DOMAIN-SUFFIX,nicovideo.jp
 DOMAIN-SUFFIX,nimg.jp
 DOMAIN-SUFFIX,socdm.com
+DOMAIN-SUFFIX,happyon.jp
+DOMAIN-SUFFIX,hjholdings.jp
+DOMAIN-SUFFIX,hulu.jp
+DOMAIN-SUFFIX,tver.jp
 DOMAIN-KEYWORD,abematv.akamaized.net
 USER-AGENT,AbemaTV*
 USER-AGENT,Niconico*

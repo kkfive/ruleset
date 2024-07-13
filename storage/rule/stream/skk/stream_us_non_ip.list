@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Stream Services: North America
-# Last Updated: 2024-04-03T16:26:12.679Z
-# Size: 46
+# Last Updated: 2024-06-02T13:44:39.811Z
+# Size: 45
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -9,6 +9,7 @@
 # - Fox Now
 # - Fox+
 # - Hulu
+# - Hulu Japan
 # - SHOWTIME
 # - encoreTVB
 # - Discovery+
@@ -29,18 +30,17 @@ DOMAIN-SUFFIX,foxdcg.com
 DOMAIN-SUFFIX,uplynk.com
 DOMAIN-SUFFIX,foxplus.com
 DOMAIN-SUFFIX,theplatform.com
-DOMAIN-SUFFIX,happyon.jp
 DOMAIN-SUFFIX,hulu.com
-DOMAIN-SUFFIX,hulu.jp
 DOMAIN-SUFFIX,hulu.tv
 DOMAIN-SUFFIX,hulu.us
 DOMAIN-SUFFIX,huluim.com
 DOMAIN-SUFFIX,hulustream.com
+DOMAIN-SUFFIX,happyon.jp
 DOMAIN-SUFFIX,hjholdings.jp
+DOMAIN-SUFFIX,hulu.jp
 DOMAIN-SUFFIX,sho.com
 DOMAIN-SUFFIX,showtime.com
 DOMAIN-SUFFIX,encoretvb.com
-DOMAIN-SUFFIX,tver.jp
 DOMAIN-SUFFIX,disco-api.com
 DOMAIN-SUFFIX,discoveryplus.co.uk
 DOMAIN-SUFFIX,discoveryplus.com
