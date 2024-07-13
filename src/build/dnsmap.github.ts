@@ -4,7 +4,7 @@ import { writeFileSync } from '@/utils'
 
 async function getHostContent(): Promise<[[string, string]]> {
   return new Promise((resolve, reject) => {
-    fetch('https://raw.hellogithub.com/hosts.json')
+    fetch('https://raw.githubusercontent.com/521xueweihan/GitHub520/main/hosts.json')
       .then(response => response.json())
       .then(data => resolve(data))
       .catch(error => reject(error))
