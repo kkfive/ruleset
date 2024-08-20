@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Domestic Domains
-# Last Updated: 2024-06-26T09:50:30.875Z
-# Size: 766
+# Last Updated: 2024-08-18T13:07:33.038Z
+# Size: 775
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -9,8 +9,6 @@
 # This file contains known addresses that are avaliable in the Mainland China.
 #########################################
 DOMAIN,this_ruleset_is_made_by_sukkaw.ruleset.skk.moe
-DOMAIN,cdn.bootcdn.net
-DOMAIN,cdn.bootcss.com
 DOMAIN,www.layuicdn.com
 DOMAIN,xboxlive.cn
 DOMAIN,lv.queniujq.cn
@@ -237,8 +235,6 @@ DOMAIN-SUFFIX,ourdvs.com
 DOMAIN-SUFFIX,staticdn.net
 DOMAIN-SUFFIX,sevencdn.com
 DOMAIN-SUFFIX,wangsu.com
-DOMAIN-SUFFIX,staticfile.org
-DOMAIN-SUFFIX,staticfile.net
 DOMAIN-SUFFIX,steam.clngaa.com
 DOMAIN-SUFFIX,steam.ksyna.com
 DOMAIN-SUFFIX,dl.bscstorage.net
@@ -356,6 +352,7 @@ DOMAIN-SUFFIX,dewu.com
 DOMAIN-SUFFIX,dfcfw.com
 DOMAIN-SUFFIX,dida365.com
 DOMAIN-SUFFIX,digicert.cn
+DOMAIN-SUFFIX,dizzylab.net
 DOMAIN-SUFFIX,docin.com
 DOMAIN-SUFFIX,docschina.org
 DOMAIN-SUFFIX,douban.com
@@ -412,6 +409,9 @@ DOMAIN-SUFFIX,ksyun.com
 DOMAIN-SUFFIX,kugou.com
 DOMAIN-SUFFIX,kuwo.cn
 DOMAIN-SUFFIX,lagou.com
+DOMAIN-SUFFIX,lancdn.com
+DOMAIN-SUFFIX,landiannews.com
+DOMAIN-SUFFIX,landian.vip
 DOMAIN-SUFFIX,leetcode.cn
 DOMAIN-SUFFIX,leetcode-cn.com
 DOMAIN-SUFFIX,leiniao.com
@@ -434,6 +434,7 @@ DOMAIN-SUFFIX,msstatic.com
 DOMAIN-SUFFIX,mubu.com
 DOMAIN-SUFFIX,myzaker.com
 DOMAIN-SUFFIX,neea.cn
+DOMAIN-SUFFIX,nmc.cn
 DOMAIN-SUFFIX,ntp.org.cn
 DOMAIN-SUFFIX,nubia.cn
 DOMAIN-SUFFIX,nubia.com
@@ -451,6 +452,7 @@ DOMAIN-SUFFIX,pconline.com.cn
 DOMAIN-SUFFIX,peiluyou.com
 DOMAIN-SUFFIX,php.cn
 DOMAIN-SUFFIX,pingan.com
+DOMAIN-SUFFIX,pingwest.com
 DOMAIN-SUFFIX,pplive.com
 DOMAIN-SUFFIX,pps.tv
 DOMAIN-SUFFIX,ppsimg.com
@@ -540,6 +542,7 @@ DOMAIN-SUFFIX,alipay.com.cn
 DOMAIN-SUFFIX,alipayobjects.com
 DOMAIN-SUFFIX,alibaba-inc.com
 DOMAIN-SUFFIX,alibabausercontent.com
+DOMAIN-SUFFIX,alibabadns.com
 DOMAIN-SUFFIX,alicloudccp.com
 DOMAIN-SUFFIX,alipan.com
 DOMAIN-SUFFIX,aliyundrive.com
@@ -642,6 +645,8 @@ DOMAIN-SUFFIX,qlivecdn.com
 DOMAIN-SUFFIX,tcdnlive.com
 DOMAIN-SUFFIX,dnsv1.com
 DOMAIN-SUFFIX,upos-sz-mirrorali.bilivideo.com
+DOMAIN-SUFFIX,upos-sz-estgoss.bilivideo.com
+DOMAIN-SUFFIX,upos-sz-mirrorbd.bilivideo.com
 DOMAIN-SUFFIX,upos-sz-mirrorbos.bilivideo.com
 DOMAIN-SUFFIX,upos-sz-mirrorcoso1.bilivideo.com
 DOMAIN-SUFFIX,acg.tv
@@ -660,6 +665,7 @@ DOMAIN-SUFFIX,biliapi.net
 DOMAIN-SUFFIX,biligame.cn
 DOMAIN-SUFFIX,biligame.com
 DOMAIN-SUFFIX,biligame.net
+DOMAIN-SUFFIX,bilicomic.com
 DOMAIN-SUFFIX,bilicomics.com
 DOMAIN-SUFFIX,bilibilipay.cn
 DOMAIN-SUFFIX,bilibilipay.com
@@ -667,11 +673,13 @@ DOMAIN-SUFFIX,bilicdn1.com
 DOMAIN-SUFFIX,mi.com
 DOMAIN-SUFFIX,duokan.com
 DOMAIN-SUFFIX,mi-img.com
+DOMAIN-SUFFIX,mi-fds.com
 DOMAIN-SUFFIX,mifile.cn
 DOMAIN-SUFFIX,miui.com
 DOMAIN-SUFFIX,xiaomi.com
 DOMAIN-SUFFIX,xiaomi.cn
 DOMAIN-SUFFIX,xiaomi.net
+DOMAIN-SUFFIX,xiaomiev.com
 DOMAIN-SUFFIX,xiaomiyoupin.com
 DOMAIN-SUFFIX,saxyit.com
 DOMAIN-SUFFIX,bytecdn.cn
@@ -709,6 +717,7 @@ DOMAIN-SUFFIX,volces.com
 DOMAIN-SUFFIX,baike.com
 DOMAIN-SUFFIX,zjcdn.com
 DOMAIN-SUFFIX,zijieapi.com
+DOMAIN-SUFFIX,feelgood.cn
 DOMAIN-SUFFIX,91.com
 DOMAIN-SUFFIX,hao123.com
 DOMAIN-SUFFIX,baidu.cn

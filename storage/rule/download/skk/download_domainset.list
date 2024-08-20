@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Large Files Hosting Domains
-# Last Updated: 2024-06-29T04:45:21.491Z
-# Size: 542
+# Last Updated: 2024-08-13T15:21:33.712Z
+# Size: 559
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -10,9 +10,12 @@
 #########################################
 this_ruleset_is_made_by_sukkaw.ruleset.skk.moe
 .cdn.ea.com
+dl.ui.com
 releases.arc.net
+formulae.brew.sh
 mirror.cat.net
 mirrors.cat.net
+.file.io
 ftp.gnu.org
 gog-cdn-fastly.gog.com
 gog-cdn-fastly-cp77.gog.com
@@ -23,6 +26,7 @@ binary-factory.kde.org
 file24-d.kuku.lu
 .mega.io
 .mega.nz
+.temp.sh
 .cdn.ubi.com
 mirror.xtom.au
 mirrors.xtom.au
@@ -53,7 +57,6 @@ cdn.kagi.com
 cdimage.kali.org
 dl.pstmn.io
 mac-release-static.stash.ws
-dl.ubnt.com
 download.xbox.com
 mirror.xtom.com
 mirrors.xtom.com
@@ -74,6 +77,7 @@ dl2.xmind.net
 dl3.xmind.net
 downloads.xrite.com
 download.beeper.com
+.catbox.moe
 .deb.debian.org
 .ftp.debian.org
 .archive.debian.org
@@ -84,11 +88,13 @@ download.dlsite.com
 desktop.docker.com
 download.docker.com
 .mirrors.dotsrc.org
+codeload.github.com
 dl.google.com
 dl.l.google.com
 cache.pack.google.com
 download.mlcc.google.com
 download.tensorflow.google.com
+iterm2.com
 .repo.jing.rocks
 mirrors.edge.kernel.org
 .mega.co.nz
@@ -96,12 +102,13 @@ redstone-launcher.mojang.com
 dl.motrix.app
 az764295.vo.msecnd.net
 .download.nvidia.com
-download.dm.origin.com
+.download.dm.origin.com
 builds.parsec.app
 steam.ru.qtlglb.com
 steam.eca.qtlglb.com
 steam.apac.qtlglb.com
 steam.naeu.qtlglb.com
+share.riseup.net
 store.setapp.com
 download.sketch.com
 .archive.ubuntu.com
@@ -109,6 +116,7 @@ security.ubuntu.com
 download.anydesk.com
 edge.steam-dns.top.comcast.net
 dl.devmate.com
+.filebin.net
 down.filen-1.net
 down.filen-2.net
 down.filen-3.net
@@ -123,6 +131,7 @@ download.mozilla.org
 download.nektony.com
 boot.netboot.xyz
 dl.nssurge.com
+releases.obsidian.md
 downloads.openwrt.org
 enterprise.proxmox.com
 .iso.reactos.org
@@ -183,12 +192,16 @@ api-updates.orbstack.dev
 cdn-updates.orbstack.dev
 repo.powerdns.com
 dl.snipaste.com
+stats.snipaste.com
 download.snipaste.com
+.tmpfiles.org
 xvcf1.xboxlive.com
 xvcf2.xboxlive.com
 packagespc.xboxlive.com
 .1fichier.info
+c.1password.com
 downloads.1password.com
+cache.agilebits.com
 steampipe.akamaized.net
 steampipe-kr.akamaized.net
 steampipe-partner.akamaized.net
@@ -495,6 +508,7 @@ amupdatedl4.microsoft.com
 amupdatedl5.microsoft.com
 .delivery.mp.microsoft.com
 .download.prss.microsoft.com
+.software-download.microsoft.com
 download.visualstudio.microsoft.com
 mirror.navercorp.com
 desktop.parallels.com
@@ -510,6 +524,7 @@ update.googleapis.com
 releases.grapheneos.org
 .nitro.download
 pixeldrain.com
+update.sleazyfork.org
 os-cdn.virtfusion.net
 install.virtfusion.net
 packages.virtfusion.net
@@ -549,5 +564,7 @@ get.pixelexperience.org
 download.pixelexperience.org
 .copr.fedorainfracloud.org
 .cloudflaremirrors.com
+objects.githubusercontent.com
+pkg-containers.githubusercontent.com
 .digitaloceanspaces.com
 ################## EOF ##################
