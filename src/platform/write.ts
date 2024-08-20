@@ -2,6 +2,7 @@ import type { RuleSetNames } from './ruleStrategy/base'
 import { ClashWriteStrategy } from './writeStrategy/clash'
 import { SurgeWriteStrategy } from './writeStrategy/surge'
 import { LoonWriteStrategy } from './writeStrategy/loon'
+import { SingBoxWriteStrategy } from '@/platform/writeStrategy/singbox.ts'
 
 export class WriteFile {
   private ruleSet: Record<RuleSetNames, Set<string>> = {
@@ -26,6 +27,7 @@ export class WriteFile {
     new SurgeWriteStrategy(),
     new ClashWriteStrategy(),
     new LoonWriteStrategy(),
+    new SingBoxWriteStrategy(),
   ]
 
   constructor(ruleSet: Record<RuleSetNames, Set<string>>) {
