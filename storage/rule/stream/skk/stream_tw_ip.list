@@ -1,6 +1,6 @@
 #########################################
-# Sukka's Ruleset - Stream Services' IPs: Taiwan
-# Last Updated: 2024-03-08T08:50:32.717Z
+# Sukka's Ruleset - Stream Services IPs: Taiwan
+# Last Updated: 2024-10-07T19:20:32.633Z
 # Size: 1
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
@@ -12,7 +12,6 @@
 # - Line TV
 # - HBO Asia
 # - Bahamut
-# - Bilibili International
 #########################################
 DOMAIN,this_ruleset_is_made_by_sukkaw.ruleset.skk.moe
 ################## EOF ##################
