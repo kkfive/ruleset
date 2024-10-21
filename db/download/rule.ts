@@ -29,10 +29,10 @@ export default {
       path: 'adrules/adrules.list',
       url: 'https://adrules.top/adrules.list',
     },
-    {
-      path: 'RuCu6/MyBlockAds.list',
-      url: 'https://raw.githubusercontent.com/RuCu6/QuanX/main/Rules/MyBlockAds.list',
-    },
+    // {
+    //   path: 'RuCu6/MyBlockAds.list',
+    //   url: 'https://raw.githubusercontent.com/RuCu6/QuanX/main/Rules/MyBlockAds.list',
+    // },
     {
       path: 'skk/reject_url_regex_non_ip.list',
       url: 'https://ruleset.skk.moe/List/non_ip/reject-url-regex.conf',
