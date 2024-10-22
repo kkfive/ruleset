@@ -206,7 +206,7 @@ export default {
   '1password': [
     {
       path: 'vpn_tool/1PasswordUS.list',
-      url: 'https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Rule/1PasswordUS.list',
+      url: 'https://kelee.one/Tool/Loon/Rule/1PasswordUS.list',
     },
   ],
 } as Record<string, DownloadItem[]>
