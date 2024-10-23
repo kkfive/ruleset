@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2024-10-15T14:58:01.400Z
-# Size: 2485
+# Last Updated: 2024-10-22T17:08:18.432Z
+# Size: 2510
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -29,6 +29,7 @@ nodei.co
 waitlisted.co
 utteranc.es
 versionbadg.es
+cravatar.eu
 .zohostatic.eu
 .1passwordusercontent.eu
 .i-dont-care-about-cookies.eu
@@ -69,6 +70,7 @@ prettier.io
 .bitbucket.io
 .corsproxy.io
 .crossbell.io
+.wixstudio.io
 .emotivecdn.io
 gtranslate.io
 .stackblitz.io
@@ -328,6 +330,7 @@ cdn-sellix.com
 .nincontent.com
 .nowestatic.com
 optimizely.com
+.patientpop.com
 .placewaifu.com
 .sbcdnvideo.com
 .sentry-cdn.com
@@ -431,6 +434,7 @@ searchserverapi.com
 .cloudflarestream.com
 .googleadservices.com
 .steamusercontent.com
+conversiongorilla.com
 .envatousercontent.com
 .framerusercontent.com
 .githubusercontent.com
@@ -488,6 +492,7 @@ pkg-size.dev
 .eroimg.net
 .ezocdn.net
 .hbfile.net
+.imgair.net
 .mercdn.net
 .piximg.net
 .poecdn.net
@@ -635,12 +640,16 @@ t2.picb.cc
 t3.picb.cc
 t4.picb.cc
 pics.vpdmm.cc
+s.gishan.cc
+fonts.gishan.cc
 cdn.arduino.cc
 content.arduino.cc
 .aayinltcs.arduino.cc
 registry.npmjs.cf
 .ipfs.xoqq.ch
 static.infomaniak.ch
+app.groove.cm
+.applicationinsights.azure.cn
 i.ibb.co
 image.ibb.co
 s.w-x.co
@@ -677,6 +686,7 @@ staticmap.openstreetmap.de
 res.craft.do
 secure-res.craft.do
 st.agrd.eu
+img.agrd.eu
 cdn.european-alternatives.eu
 icons.llamao.fi
 cdn.player.fm
@@ -732,7 +742,8 @@ js.short.io
 js.smile.io
 cdn.split.io
 sdk.split.io
-.events.split.io
+auth.split.io
+events.split.io
 streaming.split.io
 telemetry.split.io
 cdn.branch.io
@@ -926,8 +937,6 @@ st1.zoom.us
 st2.zoom.us
 st3.zoom.us
 cdn.donmai.us
-sponsor.ajay.app
-dearrow-thumb.ajay.app
 cdn.rive.app
 static.linear.app
 .cms-cdn.linear.app
@@ -1044,6 +1053,9 @@ public-cdn.bblmw.com
 images.bfmtv.com
 tags.bkrtx.com
 assets.bnidx.com
+safebrowsing.brave.com
+assets.brevo.com
+corp-backend.brevo.com
 designsystem.brevo.com
 cdn.cameo.com
 ajax.cdnjs.com
@@ -1174,6 +1186,7 @@ static.hotjar.com
 bst.icons8.com
 img.icons8.com
 .cdn.ifixit.com
+i.iheart.com
 code.jquery.com
 cdn.kinsta.com
 assets.kraken.com
@@ -1486,6 +1499,8 @@ c.marsflag.com
 static.mendeley.com
 api.mintlify.com
 thumbnailer.mixcloud.com
+api.mixpanel.com
+api-eu.mixpanel.com
 cdn.modrinth.com
 cdn-raw.modrinth.com
 .sny.monosnap.com
@@ -1584,6 +1599,7 @@ snyk-widget.herokuapp.com
 freeshippingbar.herokuapp.com
 v.hillwaver.com
 static.incapsula.com
+platform.instagram.com
 cdn.jetphotos.com
 images.macrumors.com
 polyfill.mailchimp.com
@@ -1708,6 +1724,7 @@ firebaselogging-pa.googleapis.com
 optimizationguide-pa.googleapis.com
 .crashlyticsreports-pa.googleapis.com
 .content-storage-upload.googleapis.com
+assets.grooveapps.com
 cdn.hackernoon.com
 assets.hearstapps.com
 cdn.hellofresh.com
@@ -1830,6 +1847,7 @@ rebound.postmarkapp.com
 newsletter.postmarkapp.com
 cdn.pricespider.com
 api.producthunt.com
+assets.raspberrypi.com
 c.s-microsoft.com
 store-images.s-microsoft.com
 img.shoplineapp.com
@@ -1861,6 +1879,7 @@ cdnjs.buymeacoffee.com
 cdn.clever-cloud.com
 assets.clever-cloud.com
 components.clever-cloud.com
+assets.clickfunnels.com
 static-assets.clubhouseapi.com
 cdn.cnx-software.com
 ui.contentstack.com
@@ -1910,6 +1929,7 @@ cdn.faveohelpdesk.com
 images.flightradar24.com
 cdn.freebiesupply.com
 rts-static-prod.freshworksapi.com
+app.groovefunnels.com
 sig.grumpybumpers.com
 img3.lltaohuaxiang.com
 asset.mansionglobal.com
@@ -2277,6 +2297,8 @@ img.timero.xyz
 img.catwvod.xyz
 media.pullopen.xyz
 .ipfs.4everland.xyz
+rules1.clearurls.xyz
+rules2.clearurls.xyz
 cdn.yinghuazy.xyz
 int.qiniuyun15.xyz
 storage.withfabric.xyz
@@ -2410,6 +2432,8 @@ content.product.glitch.com
 .crashlytics2.l.google.com
 static.corp.google.com
 .ogads-pa.clients6.google.com
+web-static.pages.iheart.com
+static.inferno.iheart.com
 prego-cache.prod.sketch.com
 resources-cache.prod.sketch.com
 image.ship.vercel.com
@@ -2422,7 +2446,7 @@ ton.local.twitter.com
 widgets.media.weather.com
 widgets-red.media.weather.com
 image.p-c2-x.abema-tv.com
-widget.cluster.groovehq.com
+.widget.cluster.groovehq.com
 .cdn.survey.medallia.com
 cdn.accounts.nintendo.com
 epic-social-social-modules-prod.ol.epicgames.com
@@ -2460,6 +2484,7 @@ az700632.vo.msecnd.net
 shell.cdn.office.net
 .public.cdn.office.net
 res-geo.cdn.office.net
+.myanalytics.cdn.office.net
 cdn.forms.office.net
 cdn.graph.office.net
 avatars.mds.yandex.net

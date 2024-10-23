@@ -1,6 +1,6 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2024-10-15T08:43:09.073Z
+# Last Updated: 2024-10-18T09:10:14.055Z
 # Size: 39
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
@@ -39,12 +39,12 @@ DOMAIN-WILDCARD,vip-videoprem*-thumbnail?.fc2.com
 DOMAIN-WILDCARD,blog-imgs-??.2nt.com
 DOMAIN-WILDCARD,blog-imgs-??.fc2.com
 DOMAIN-WILDCARD,rr?---??.ouo.si
-DOMAIN-WILDCARD,ffzy-online?.com
-DOMAIN-WILDCARD,ffzy-play?.com
-DOMAIN-WILDCARD,kuaikan-cdn?.com
-DOMAIN-WILDCARD,lz-cdn?.com
-DOMAIN-WILDCARD,lz-cdn??.com
-DOMAIN-WILDCARD,fsvod?.com
+DOMAIN-WILDCARD,*.ffzy-online?.com
+DOMAIN-WILDCARD,*.ffzy-play?.com
+DOMAIN-WILDCARD,*.kuaikan-cdn?.com
+DOMAIN-WILDCARD,*.lz-cdn?.com
+DOMAIN-WILDCARD,*.lz-cdn??.com
+DOMAIN-WILDCARD,*.fsvod?.com
 URL-REGEX,^http://www\.microsoft\.com/pki/
 URL-REGEX,^http://www\.microsoft\.com/pkiops/
 ################## EOF ##################
