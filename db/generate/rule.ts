@@ -246,7 +246,7 @@ export default [
   {
     fileName: '1passwordUS',
     includeFiles: [
-      path.join(CONF.ruleStoragePath, '/1password/vpn_tool/1PasswordUS.list'),
+      path.join(CONF.ruleStoragePath, '/1password/kkfive/1PasswordUS.list'),
     ],
   },
   {
